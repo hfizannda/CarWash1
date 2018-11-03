@@ -19,11 +19,9 @@ public class HomePage extends AppCompatActivity {
 
     }
     public void next(View view) {
-     Intent intent = new Intent(this,new_customer.class);
+     Intent intent = new Intent(this,new_car.class);
      startActivity(intent);
     }
 
-    public void search(View view) {
-        Intent intent = new Intent(this, search_customer.class);
-    }
+
 }
