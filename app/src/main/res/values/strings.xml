@@ -13,4 +13,25 @@
     <string name="_200">200/-</string>
     <string name="earned">Earned</string>
     <string name="points">points</string>
+
+    <string-array name="brand">
+        <item>Brand</item>
+        <item>Maruthi Suzuki</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Renault</item>
+        <item>Skoda</item>
+        <item>Toyota</item>
+        <item>BMW</item>
+        <item>Audi</item>
+        <item>Ford</item>
+        <item>Mercedes</item>
+        <item>Mahindra</item>
+        <item>Tata</item>
+    </string-array>
+    <string-array name="fuel">
+        <item>Fuel</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+    </string-array>
 </resources>
