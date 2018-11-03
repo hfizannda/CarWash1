@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">CarWash</string>
+    <string name="amount">Amount</string>
+    <string name="rewardpercentage">rewardpercentage</string>
+    <string name="reset_btn">reset_btn</string>
+    <string name="Rewardpercentage">Rewardpecentage</string>
+    <string name="calculate_btn">calculate_btn</string>
+    <string name="Reward_btn">reward_btn</string>
+    <string name="previous_record">previous_record</string>
+    <string name="rewardans">rewardans</string>
+    <string name="previous">Previous Record</string>
+    <string name="reward_percentage">Reward percentage</string>
+    <string name="_200">200/-</string>
+    <string name="earned">Earned</string>
+    <string name="points">points</string>
 
     <string-array name="brand">
         <item>Brand</item>
