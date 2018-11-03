@@ -8,6 +8,7 @@
     android:background="@drawable/home_page_background">
 
     <Button
+        android:id="@+id/search_customer"
         android:layout_width="182dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
@@ -17,13 +18,17 @@
         android:background="@drawable/home_page_search_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+android:clickable="true"
+        android:contextClickable="true"
+        android:onClick="search"
         app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.457"
+        />
 
     <Button
+        android:id="@+id/new_button"
         android:layout_width="182dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
@@ -33,9 +38,12 @@
         android:background="@drawable/home_page_new_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:contextClickable="true"
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
+        app:layout_constraintVertical_bias="0.54"
+       android:onClick="next"/>
 
 </android.support.constraint.ConstraintLayout>
