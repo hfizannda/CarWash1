@@ -13,6 +13,16 @@
     <string name="_200">200/-</string>
     <string name="earned">Earned</string>
     <string name="points">points</string>
+    <string name="demo_number">9876543210</string>
+    <string name="demo_name">Shreyas Deavdiga</string>
+    <string name="car_details">Car Details</string>
+    <string name="car_ready">Car is washed and ready for check out.</string>
+    <string name="car_wash_notification">Car will be washed in</string>
+    <string name="number_plate">KA-19EB-4413</string>
+    <string name="reward_list_amount">Amount :2000rs</string>
+    <string name="date">28/12/2018</string>
+    <string name="time">1:10 am</string>
+    <string name="reward_amount">Reward : 10rs</string>
 
     <string-array name="brand">
         <item>Brand</item>
