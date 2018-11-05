@@ -1,5 +1,6 @@
 package www.psycodes.in.carwash;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -36,5 +37,9 @@ public class new_car extends AppCompatActivity implements AdapterView.OnItemSele
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public void saveCarHandler(View view) {
+        startActivity(new Intent(new_car.this,Profile.class));
     }
 }

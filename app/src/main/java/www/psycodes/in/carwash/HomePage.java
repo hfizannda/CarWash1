@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class HomePage extends AppCompatActivity {
 
@@ -24,4 +25,8 @@ public class HomePage extends AppCompatActivity {
     }
 
 
+    public void search(View view) {
+
+        Toast.makeText(this, "search", Toast.LENGTH_SHORT).show();
+    }
 }

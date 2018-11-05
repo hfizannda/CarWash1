@@ -1,15 +1,15 @@
 package www.psycodes.in.carwash;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class Rewardpage extends AppCompatActivity {
   EditText amount,rewardper;
@@ -34,22 +34,11 @@ public class Rewardpage extends AppCompatActivity {
                 rewardper.setHint(R.string.reward_percentage);
                 rewardans.setText("");
                 amount.setText("");
-
                 rewardans.setVisibility(View.INVISIBLE);
             }
         });
-        prerecrd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(Rewardpage.this, "Previous Records:", Toast.LENGTH_SHORT).show();
-            }
-        });
-        reward.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(Rewardpage.this, "Reward Successfful", Toast.LENGTH_SHORT).show();
-            }
-        });
+
+
 calculate.setOnClickListener(new View.OnClickListener() {
     @SuppressLint("SetTextI18n")
     @Override
@@ -81,4 +70,7 @@ calculate.setOnClickListener(new View.OnClickListener() {
         return true;
     }
 
+    public void previousRewardHandler(View view) {
+        startActivity(new Intent(Rewardpage.this,Rewards.class));
+    }
 }

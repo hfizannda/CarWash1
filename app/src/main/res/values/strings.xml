@@ -23,6 +23,10 @@
     <string name="date">28/12/2018</string>
     <string name="time">1:10 am</string>
     <string name="reward_amount">Reward : 10rs</string>
+    <string name="place">Place</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="model">model</string>
 
     <string-array name="brand">
         <item>Brand</item>

@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.457"
-        android:onClick="next"/>
+        android:onClick="search"/>
 
     <Button
         android:layout_width="230dp"
@@ -38,7 +38,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.544"
-        app:layout_constraintVertical_bias="0.54"
         android:onClick="next"/>
 
 </android.support.constraint.ConstraintLayout>

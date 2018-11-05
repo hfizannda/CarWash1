@@ -50,12 +50,12 @@ public class Profile extends AppCompatActivity {
     }
 
     public void addCarInfoHandler(View view) {
-//
-//        startActivity(new Intent(Profile.this,WebView.class));
+
+        startActivity(new Intent(Profile.this,new_car.class));
    }
 
 
     public void rewardHandler(View view) {
-        startActivity(new Intent(Profile.this,Rewards.class));
+        startActivity(new Intent(Profile.this,Rewardpage.class));
     }
 }

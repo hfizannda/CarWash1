@@ -21,7 +21,8 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="ContentDescription" />
 
     <Button
         android:id="@+id/back_button"
@@ -48,17 +49,20 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/new_cust_edittext"
-        android:drawableLeft="@drawable/new_cust_profile"
+        android:drawableStart="@drawable/new_cust_profile"
         android:drawablePadding="10dp"
+        android:inputType="text"
         android:fontFamily="@font/chewy"
-        android:hint="Name"
+        android:hint="@string/name"
         android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.473" />
+        app:layout_constraintVertical_bias="0.473"
+        tools:ignore="Autofill" />
 
     <EditText
         android:id="@+id/cust_phone"
@@ -69,9 +73,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/new_cust_edittext"
-        android:drawableLeft="@drawable/new_cust_phone"
+        android:drawableStart="@drawable/new_cust_phone"
         android:drawablePadding="10dp"
-        android:hint="Phone"
+        android:hint="@string/phone"
+        android:inputType="phone"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +84,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.609"
-        android:fontFamily="@font/chewy"/>
+        android:fontFamily="@font/chewy"
+        tools:ignore="Autofill" />
 
     <EditText
         android:id="@+id/cust_place"
@@ -90,17 +96,19 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/new_cust_edittext"
-        android:drawableLeft="@drawable/nw_cust_place"
+        android:drawableStart="@drawable/nw_cust_place"
         android:drawablePadding="10dp"
-        android:hint="Place"
+        android:hint="@string/place"
         android:padding="20dp"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.742"
-        android:fontFamily="@font/chewy"/>
+        android:fontFamily="@font/chewy"
+        tools:ignore="Autofill" />
 
     <Button
         android:id="@+id/cust_save"
@@ -115,6 +123,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.886"
+        android:onClick="saveHandler"/>
 
 </android.support.constraint.ConstraintLayout>
